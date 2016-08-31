@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function test(){
+var a = {type:i, model:"500", color:"white"};
+var cars = [3];
+for(var i=0;i<3;i++){
+cars[i] = {type:i, model:"500", color:"white"};
+}
+document.getElementById("demo").innerHTML = cars[0].type;
+}
+</script>
+</head>
+<body>
+
+
+<p>Creating a JavaScript Object.</p>
+
+<button onclick="test()"></button>
+<p id="demo"></p>
+
+
+
+</body>
+</html>
